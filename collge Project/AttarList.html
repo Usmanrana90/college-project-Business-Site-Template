@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Home.css">
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+         auto:true,
+        pager:false,
+      });
+    });
+  </script>
+
+  <style>
+    *
+{
+  margin: 0px;
+  padding: 0px;
+}
+.header
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: 25px;
+  background-color:green;
+}
+.navbar
+{
+  background-color: rgb(94,175,221);
+  border-radius: 5;
+  padding-top: 21px;
+  padding-bottom: 0px;
+
+}
+.navbar-header a.navbar-brand
+{
+  font-size: 30px;
+  font-family: Kristen ITC;
+  color: orange;
+
+}
+.navbar-nav
+{
+  margin-top: 0px;
+}
+.navbar-nav>li
+{
+  margin-left: 20px;
+  padding-bottom: 28px;
+  color: white;
+
+}
+.navbar-header a.navbar-brand:.hover
+{
+  color: yellow;
+}
+.navbar .navbar-nav>li>a
+{
+  color: white;
+  display: inline-block;
+  margin: 0px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Times New Roman;
+}
+.navbar-nav>li>a:hover
+{
+  background-color: lightblue;
+}
+.sign1 a
+{
+  padding-right: 80px;
+  
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 15px;
+  color: white;
+}
+
+.sign1>a:hover
+{
+  background-color: lightblue;
+  
+  
+}
+  </style>
+<body>
+  <!--Header Start-->
+
+  <div class="container-fluid">
+             <div class="row bg-info" style="box-shadow: 10px 10px 10px #9c9c9c;">
+                 <div class="col-lg-3 col-md-6 col-sm-12">
+                     <img src="img/1.jpg" style="width: 20px; height: 30px;">
+                     <span style="color:Blue">+91-9458843639</span>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12">
+                     <img src="img/12.jpg" style="width: 50px; height: 30px;">
+                     <span style="color:Blue">urfragrance8@gmail.com</span>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12"></div>
+                 <div class="col-lg-3 col-md-6 col-sm-12"></div>
+             </div>
+             <div class="row" style="margin-top: 10px;">
+                
+
+             </div>
+              <!--Header End-->
+<!--Navbar-->
+
+  <nav class="navbar">  <!--navbar-fixed-top-->
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggale Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          
+        </button>       
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="Home.html">HOME</a></li>
+          <li class=""><a href="#">Contact</a></li>
+          <li class=""><a href="AttarList.html">Product List</a></li>
+          <li class=""><a href="aboutus.html">About Us</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopus="true" area-expanded="false">Types of Attar<span class="caret">          
+            </span></a>
+            <ul class="dropdown-menu">
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Indian</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">French</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Arabic</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">All  Name & Details</a></li>
+              <li role="separator" class="divider"></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-left">
+      <li><a href="product.html">Product</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+        aria-hashpopup="true" aria-expanded="false" >cloud<span class="caret"></span></a>
+
+          <ul class="dropdown-menu">
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Testimonial</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Costumer Review</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Action</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Action</a></li>
+          <li role="separator" class="divider"></li>
+          
+        </ul>
+      </li>
+    </ul>
+
+    <div class="sign1 navbar-right">
+
+        <td><a href="Login.jsp">Login</a></td>
+            <td><a href="Register.jsp">Register</a></td>
+      </div>
+      
+      </div>
+      
+    </div>
+    
+  </nav>
+
+
+<div class="container">
+  <center><h2>Attar List</h2>
+  <p>Premium  Quality imported Attar</p>
+<h5>All Attar Are Long Lasting</h5></center>
+
+  <div class="alert alert-success">
+    <strong>(1) Hindi Oudh</strong>
+  </div>
+  <div class="alert alert-info">
+    <strong> (2) White Oudh</strong> 
+  </div>
+  <div class="alert alert-warning">
+    <strong>(3) Gucci Oudh</strong> 
+  </div>
+  <div class="alert alert-danger">
+    <strong>(4) Rose Attar 1 Quality</strong>
+  </div>
+  <div class="alert alert-primary">
+    <strong>(5) Rose Attar 2 Quality</strong> 
+  </div>
+  <div class="alert alert-secondary">
+    <strong>(6) Jasmine Attar 1 Quality</strong> 
+    </div>
+  <div class="alert alert-dark">
+    <strong>(7) Jasmine Attar 2 Quality</strong>
+  </div>
+  <div class="alert alert-light">
+    <strong>(8) Kewra Attar 1 Quality</strong>
+  </div>
+  <div class="alert alert-success">
+    <strong>(9) Khus Attar</strong>
+  </div>
+  <div class="alert alert-info">
+    <strong>(10) Saffron Attar</strong> 
+  </div>
+  <div class="alert alert-warning">
+    <strong>(11) Shamama</strong> 
+  </div>
+  <div class="alert alert-danger">
+    <strong>(12) Mitti 1 Quality</strong>
+  </div>
+  <div class="alert alert-primary">
+    <strong>(13) Mitti 2 Quality</strong> 
+  </div>
+  <div class="alert alert-secondary">
+    <strong>(14) Sandal Attar</strong> 
+    </div>
+  <div class="alert alert-dark">
+    <strong>(15) Ponds</strong>
+  </div>
+  <div class="alert alert-light">
+    <strong>(16) Millinium</strong>
+  </div>
+
+
+
+  <div class="alert alert-success">
+    <strong>(17) Aqua</strong>
+  </div>
+  <div class="alert alert-info">
+    <strong> (18) Black Musk</strong> 
+  </div>
+  <div class="alert alert-warning">
+    <strong>(19) Heena</strong> 
+  </div>
+  
+  
+
+</div>
+
+</body>
+</html>
